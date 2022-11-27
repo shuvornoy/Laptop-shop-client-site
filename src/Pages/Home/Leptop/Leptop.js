@@ -26,14 +26,14 @@ const Leptop = () => {
               Laptop Provide 24h any time....
             </h1>
             <p className="text-white py-6">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsumis that it has a more-or-less normal
-              distribution of letters,as opposed to using 'Content here, content
-              here', making it look like readable English. Many desktop
-              publishing packages and web page
+              Shop incredible Black Friday Laptop Deals on Walmart.com. Score
+              our hottest savings before they're gone. Save Money. Live Better.
+              Black Friday deals are here! Save on can't-miss finds. ...
+              Two-in-one laptops: These devices can either work as a laptop on
+              one mode or as a tablet when the screen is detached from the
+              keyboard or bent back 360.....
             </p>
-            <button>fjhsdk</button>
+            <button className="btn btn-primary">Check my shop</button>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <section className='my-28 py-16 text-center' style={{ backgroundColor: 'rgb(112 123 183)' }}>
-            <h2 className="text-xl text-secondary font-bold mb-2">
+            <h2 className="text-5xl text-white font-bold mb-2">
                 Contact Us
             </h2>
 
