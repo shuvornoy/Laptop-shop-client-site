@@ -19,9 +19,11 @@ const Leptop = () => {
             className="-mb-4 hidden md:block lg:w-1/2 rounded-lg "
           />
           <div>
-            <h4 className="text-lg text-primary font-bold">Appointment</h4>
-            <h1 className=" text-white text-4xl font-bold">
-              Make an appointment Today
+            <h4 className="text-lg text-white text-4xl font-bold">
+              My Laptop Shop
+            </h4>
+            <h1 className=" text-white text-2xl font-bold">
+              Laptop Provide 24h any time....
             </h1>
             <p className="text-white py-6">
               It is a long established fact that a reader will be distracted by
