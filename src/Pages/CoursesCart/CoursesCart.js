@@ -9,7 +9,7 @@ const CoursesCart = ({ singleCourse, setModal }) => {
 
   return (
     <div
-      className="card card-compact bg-base-100 bg-color shadow-xl"
+      className="card card-compact bg-base-100 bg-color shadow-xl text-white"
       style={{ backgroundColor: "rgb(112 123 183)" }}
     >
       
