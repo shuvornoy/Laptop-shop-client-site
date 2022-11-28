@@ -18,8 +18,8 @@ const AllUsers = () => {
       },
     });
 
-     const handleDelete = (user) => {
-       fetch(`http://localhost:5000/users/${user._id}`, {
+     const handleDelete = (id) => {
+       fetch(`http://localhost:5000/users/${id}`, {
          method: "DELETE",
          headers: {
            authorization: `bearer ${localStorage.getItem("accessToken")}`,
@@ -29,7 +29,7 @@ const AllUsers = () => {
          .then((data) => {
            if (data.deletedCount > 0) {
              refetch();
-             toast.success(`Doctor ${user.name} deleted successfully`);
+             toast.success( 'deleted successfully');
            }
          });
      };
@@ -60,7 +60,7 @@ const AllUsers = () => {
                   <td>{user.email}</td>
                   <td>
                     <button
-                      onClick={handleDelete}
+                      onClick={ ()=> handleDelete(user._id)}
                       className="btn btn-xs btn-danger"
                     >
                       Delete
