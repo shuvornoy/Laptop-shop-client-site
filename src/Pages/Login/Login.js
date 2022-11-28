@@ -26,6 +26,7 @@ const Login = () => {
       providerLogin(gProvider)
         .then((result) => {
           const user = result.user;
+          navigate(from, { replace: true });
           toast.success("Wow! Google logged Successfully.");
           console.log(user);
         })
