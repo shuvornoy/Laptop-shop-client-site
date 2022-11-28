@@ -3,7 +3,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-// import Loading from '../../Shared/Loading/Loading';
+
 
 const AddDoctor = () => {
   const {
@@ -16,14 +16,7 @@ const AddDoctor = () => {
 
   const navigate = useNavigate();
 
-  // const { data: specialties, isLoading } = useQuery({
-  //     queryKey: ['specialty'],
-  //     queryFn: async () => {
-  //         const res = await fetch('http://localhost:5000/appointmentSpecialty');
-  //         const data = await res.json();
-  //         return data;
-  //     }
-  // })
+
 
   const handleAddDoctor = (data) => {
     const image = data.image[0];
@@ -73,9 +66,7 @@ const AddDoctor = () => {
       });
   };
 
-  // if(isLoading){
-  //     return <Loading></Loading>
-  // }
+ 
 
   return (
     <div className="">
