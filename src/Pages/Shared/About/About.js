@@ -13,7 +13,7 @@ const ServiceHero = () => {
           <img width={458} height={1000} src={img} alt="..." />
           <div className="lg:ml-7">
             <h1 className="text-5xl font-bold">
-              Search for Primary Care Laptop Your Coach!!!!
+              Search for Primary Care Laptop Your Coach!!!!!
             </h1>
             <p className="py-6">
               Shop Laptops By Brand in Laptops (1000+) Price when purchased
