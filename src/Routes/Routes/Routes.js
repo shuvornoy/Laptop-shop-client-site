@@ -11,6 +11,7 @@ import Payment from "../../Pages/Dashboard/Payment/Payment";
 import Home from "../../Pages/Home/Home/Home";
 import ProductCard from "../../Pages/Home/Services/ProductCard";
 import Login from "../../Pages/Login/Login";
+import Blog from "../../Pages/Shared/Blog/Blog";
 import DisplayError from "../../Pages/Shared/DisplayError/DisplayError";
 import SignUp from "../../Pages/SignUp/SignUp";
 import AdminRoute from "../AdminRoute/AdminRoute";
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignUp></SignUp>,
+      },
+      {
+        path: '/blog',
+        element: <Blog />
       },
      
       {
