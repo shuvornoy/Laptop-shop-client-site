@@ -14,7 +14,7 @@ const ProductCard = () => {
     queryKey: ["doctors"],
     queryFn: async () => {
       try {
-        const res = await fetch("http://localhost:5000/products", {
+        const res = await fetch("https://laptops-server-site.vercel.app/products", {
           headers: {
             authorization: `bearer ${localStorage.getItem("accessToken")}`,
           },
